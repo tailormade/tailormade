@@ -57,7 +57,7 @@ end
 gem 'refinerycms-i18n',         '~> 1.0.0'
 
 # END USER DEFINED
-if File.exist?(file = File.expand_path('../Gemfile.keekdageek',__FILE__))
+if File.exist?(file = File.expand_path('../Gemfile.tailormade',__FILE__))
   instance_eval(File.read(file))
 end
 
