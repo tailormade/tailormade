@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+#gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -57,3 +57,7 @@ end
 gem 'refinerycms-i18n',         '~> 1.0.0'
 
 # END USER DEFINED
+if File.exist?(file = File.expand_path('../Gemfile.keekdageek',__FILE__))
+  instance_eval(File.read(file))
+end
+
